@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "SignalR.Chat.Application.Controllers.ChatController",
+    "Method": "Registration",
+    "RelativePath": "api/Chat/register-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Chat.Application.Model.RegistrationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

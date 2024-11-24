@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "Ga4FPV3kOs9tjC7KuUl3eAx68jdj/Al69d783b1YKpk=",
+  "Hash": "hVQ3GE7W9JVNUgawVlOwXxj8ELgesV3VT3FIVNUO4V8=",
   "Source": "SignalR.Chat.Application",
   "BasePath": "_content/SignalR.Chat.Application",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

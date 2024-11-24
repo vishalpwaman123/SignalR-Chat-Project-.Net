@@ -1,4 +1,6 @@
 ﻿
+using System;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
 using SignalR.Chat.Application.Services;
 
@@ -23,5 +25,10 @@ namespace SignalR.Chat.Application.Hubs
             await Groups.RemoveFromGroupAsync(Context.ConnectionId, "Come2Chat");
             await base.OnDisconnectedAsync(ex);
         }
+
+        /*public async Task AddUserConnectionId(string userName)
+        {
+            _chatService.AddUserConnectionId(userName, Context.ConnectionId);
+        }*/
     }
 }

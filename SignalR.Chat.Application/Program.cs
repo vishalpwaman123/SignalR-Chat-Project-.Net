@@ -17,9 +17,13 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
-        policy.AllowAnyOrigin() // Allow any domain
+        policy.WithOrigins("http://localhost:4200") // Specify the exact origin
               .AllowAnyHeader()
-              .AllowAnyMethod();
+              .AllowAnyMethod()
+              .AllowCredentials(); // Allow credentials
+        /*policy.AllowAnyOrigin() // Allow any domain
+              .AllowAnyHeader()
+              .AllowAnyMethod();*/
     });
 });
 
@@ -34,11 +38,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.MapHub<ChatHub>("/hubs");
+
 app.UseCors("AllowAll");
 
 app.UseAuthorization();
 
 app.MapControllers();
-app.MapHub<ChatHub>("/hubs/chat");
 
 app.Run();

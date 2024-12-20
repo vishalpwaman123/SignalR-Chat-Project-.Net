@@ -27,16 +27,18 @@ namespace SignalR.Chat.Application.Services
 
         public string? GetUserByConnectionId(string connectionId)
         {
-            lock(Users)
-                return Users.Where(x=>x.Value == connectionId)
-                            .Select(x=>x.Key)
-                            .FirstOrDefault();    
+            lock (Users)
+            {
+                return Users.Where(x => x.Value == connectionId)
+                            .Select(x => x.Key)
+                            .FirstOrDefault();
+            }
         }
 
         public void RemoveUserFromList(string user)
         {
-            lock(Users)
-                if(Users.ContainsKey(user)) Users.Remove(user);
+            lock (Users)
+                if (Users.ContainsKey(user)) Users.Remove(user);
         }
 
         public string[] GetOnlineUsers()
@@ -45,6 +47,14 @@ namespace SignalR.Chat.Application.Services
                 return Users.OrderBy(x => x.Key)
                             .Select(x => x.Key)
                             .ToArray();
+        }
+
+        public string? GetConnectionIdByUser(string user)
+        {
+            lock (Users)
+                return Users.Where(x => x.Key == user)
+                    .Select(x => x.Value)
+                    .FirstOrDefault();
         }
     }
 }

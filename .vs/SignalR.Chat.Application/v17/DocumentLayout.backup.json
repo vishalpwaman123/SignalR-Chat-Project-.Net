@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project-.Net\\",
+  "WorkspaceRootPath": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project\\SignalR-Chat-Project-.Net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|c:\\users\\vishal waman\\source\\repos\\signalr-chat-project-.net\\signalr.chat.application\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|c:\\users\\vishal waman\\source\\repos\\signalr-chat-project\\signalr-chat-project-.net\\signalr.chat.application\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|solutionrelative:signalr.chat.application\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|c:\\users\\vishal waman\\source\\repos\\signalr-chat-project-.net\\signalr.chat.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|solutionrelative:signalr.chat.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|c:\\users\\vishal waman\\source\\repos\\signalr-chat-project-.net\\signalr.chat.application\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|solutionrelative:signalr.chat.application\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|c:\\users\\vishal waman\\source\\repos\\signalr-chat-project-.net\\signalr.chat.application\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|c:\\users\\vishal waman\\source\\repos\\signalr-chat-project\\signalr-chat-project-.net\\signalr.chat.application\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|solutionrelative:signalr.chat.application\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|c:\\users\\vishal waman\\source\\repos\\signalr-chat-project\\signalr-chat-project-.net\\signalr.chat.application\\model\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|solutionrelative:signalr.chat.application\\model\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|c:\\users\\vishal waman\\source\\repos\\signalr-chat-project\\signalr-chat-project-.net\\signalr.chat.application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE62FAE7-BAC6-4E2F-B870-A562A1E41BEA}|SignalR.Chat.Application\\SignalR.Chat.Application.csproj|solutionrelative:signalr.chat.application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +26,58 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ChatService.cs",
-              "DocumentMoniker": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Services\\ChatService.cs",
-              "RelativeDocumentMoniker": "SignalR.Chat.Application\\Services\\ChatService.cs",
-              "ToolTip": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Services\\ChatService.cs",
-              "RelativeToolTip": "SignalR.Chat.Application\\Services\\ChatService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:48:05.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "SignalR.Chat.Application\\Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "SignalR.Chat.Application\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:47:58.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Program.cs",
-              "RelativeDocumentMoniker": "SignalR.Chat.Application\\Program.cs",
-              "ToolTip": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Program.cs",
-              "RelativeToolTip": "SignalR.Chat.Application\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T09:01:00.728Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\appsettings.json",
+              "RelativeDocumentMoniker": "SignalR.Chat.Application\\appsettings.json",
+              "ToolTip": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\appsettings.json",
+              "RelativeToolTip": "SignalR.Chat.Application\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T09:02:18.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ChatHub.cs",
-              "DocumentMoniker": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Hubs\\ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "SignalR.Chat.Application\\Hubs\\ChatHub.cs",
-              "ToolTip": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "SignalR.Chat.Application\\Hubs\\ChatHub.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA5wB8AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAASwDkAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T14:02:49.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "SignalR.Chat.Application\\Services\\ChatService.cs",
+              "ToolTip": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Services\\ChatService.cs",
+              "RelativeToolTip": "SignalR.Chat.Application\\Services\\ChatService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:56:50.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageDto.cs",
+              "DocumentMoniker": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Model\\MessageDto.cs",
+              "RelativeDocumentMoniker": "SignalR.Chat.Application\\Model\\MessageDto.cs",
+              "ToolTip": "C:\\Users\\Vishal Waman\\source\\repos\\SignalR-Chat-Project\\SignalR-Chat-Project-.Net\\SignalR.Chat.Application\\Model\\MessageDto.cs",
+              "RelativeToolTip": "SignalR.Chat.Application\\Model\\MessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:44:57.283Z",
               "EditorCaption": ""
             }
           ]

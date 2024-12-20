@@ -47,5 +47,37 @@ namespace SignalR.Chat.Application.Hubs
         {
             await Clients.Group("Come2Chat").SendAsync("NewMessage", message);
         }
+
+        public async Task CreatePrivateChat(MessageDto message)
+        {
+            string privateGroupName = GetPrivateGroupName(message.From, message.To);
+            await Groups.AddToGroupAsync(Context.ConnectionId, privateGroupName);
+            string? toConnectionId = _chatService.GetConnectionIdByUser(message.To);
+            await Groups.AddToGroupAsync(toConnectionId, privateGroupName);
+            // opening private chatbox for the other end user
+            await Clients.Client(toConnectionId).SendAsync("OpenPrivateChat", message);
+        }
+
+        public async Task ReceivePrivateChat(MessageDto message)
+        {
+            string privateGroupName = GetPrivateGroupName(message.From, message.To);
+            await Clients.Group(privateGroupName).SendAsync("NewPrivateMessage", message);
+        }
+
+        public async Task RemovePrivateChat(string from, string to)
+        {
+            string privateGroupName = GetPrivateGroupName(from, to);
+            await Clients.Group(privateGroupName).SendAsync("ClosePrivateChat");
+            await Groups.RemoveFromGroupAsync(Context.ConnectionId, privateGroupName);
+
+            var toConnectionId = _chatService.GetConnectionIdByUser(to);
+            await Groups.RemoveFromGroupAsync(toConnectionId, privateGroupName);
+        }
+
+        private string GetPrivateGroupName(string from, string to)
+        {
+            bool stringComapare = string.CompareOrdinal(from, to) < 0;
+            return stringComapare ? $"{from}-{to}" : $"{to}-{from}";
+        }
     }
 }
